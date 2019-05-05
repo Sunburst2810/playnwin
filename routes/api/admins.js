@@ -83,7 +83,7 @@ router.post("/register", (req, res) => {
 // @route   GET api/admins/login
 // @desc    Login Admin / Returning JWT Token
 // @access  Public
-router.post("/login", (req, res) => {
+router.post("/login", (req, res)  => {
   const { errors, isValid } = validateLoginInput(req.body);
 
   // Check Validation

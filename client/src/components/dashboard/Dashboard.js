@@ -23,28 +23,15 @@ class Dashboard extends Component {
     dashboardContent = (
       <div style={header}>
         <p className="lead text-muted">Welcome {user.name}</p>
-        <div>
-          <Link to="/roulette" className="btn btn-lg btn-danger">
-            Play
-          </Link>
-        </div>
-        <div>
-          <Link to="/create-profile" className="btn btn-lg btn-danger">
-            Create Profile
-          </Link>
-        </div>
+               
         <br />
         <br />
         <div>
           <Link to="/bet" className="btn btn-lg btn-info">
-            Place Bet
+            Play the Game
           </Link>
         </div>
-        <div>
-          <Link to="/calculator" className="btn btn-lg btn-info">
-            Betting
-          </Link>
-        </div>
+        
       </div>
     );
 
@@ -54,7 +41,7 @@ class Dashboard extends Component {
           <div className="row">
             <div className="col-md-12">
               <h1 className="display-4">Dashboard</h1>
-              {dashboardContent}
+              {dashboardContent}<br/><br/><br/><br/><br/><br/><br/><br/>
             </div>
           </div>
         </div>

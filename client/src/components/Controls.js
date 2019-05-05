@@ -110,7 +110,7 @@ class Controls extends Component {
                                 this.startButtonClicked();
                             }}
                         >
-                            Spin the ball
+                            Place Bet
             </button>
                     </div>
                 </div>
